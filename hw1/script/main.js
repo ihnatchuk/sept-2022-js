@@ -52,7 +52,7 @@ console.log(typeof c);
 let firstName2=prompt("Input your first name:");
 let middleName2=prompt("Input your middle name:");
 let age=prompt("Input your age:");
-console.log(firstName, middleName, age, age>18);
+console.log(firstName2, middleName2, age, age>18);
 
 
 
