@@ -1,4 +1,4 @@
-// first part
+// task1
 let s1='hello';
 console.log(s1);
 alert(s1);
@@ -33,4 +33,29 @@ document.write(bool1, bool2);
 console.log(bool1, bool2);
 alert(bool1);
 // Чому document.write виконується після останнього alert()?
+
+// task2
+let firstName='Dmytro';
+let middleName='Oleksandrovych';
+let lastName='Ihnatchuk'
+console.log(firstName+' '+middleName+' '+lastName);
+
+// task3
+let a = 100;
+let b = '100';
+let c = true;
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+
+//additional
+let firstName2=prompt("Input your first name:");
+let middleName2=prompt("Input your middle name:");
+let age=prompt("Input your age:");
+console.log(firstName, middleName, age, age>18);
+
+
+
+
+
 
