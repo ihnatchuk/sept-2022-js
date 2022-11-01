@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="JS hw1, task1">
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="edited">
+      <change afterPath="$PROJECT_DIR$/hw1_ext/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw1_ext/script/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw1/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw1/script/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -34,10 +40,14 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/oktenweb/sept-2022-js/hw1_ext"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\oktenweb\sept-2022-js\hw1_ext" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\oktenweb\sept-2022-js\hw1\script" />
     </key>
@@ -50,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667239462029</updated>
-      <workItem from="1667239463593" duration="4633000" />
+      <workItem from="1667239463593" duration="5326000" />
+      <workItem from="1667306050437" duration="3846000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -59,7 +70,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667247861497</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JS hw1, task1, task2, task3, additional">
+      <created>1667249182054</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667249182054</updated>
+    </task>
+    <task id="LOCAL-00003" summary="edited">
+      <created>1667249537140</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667249537140</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,7 +95,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="try_to_use_DOM" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -78,6 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JS hw1, task1" />
-    <option name="LAST_COMMIT_MESSAGE" value="JS hw1, task1" />
+    <MESSAGE value="JS hw1, task1, task2, task3, additional" />
+    <MESSAGE value="edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited" />
   </component>
 </project>
