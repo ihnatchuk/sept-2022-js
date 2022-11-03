@@ -71,3 +71,19 @@ console.log(`User with index ${userIndex} has password "${users[userIndex].passw
 
 //console.log(users[userIndex].password);
 //users.map(user=>console.log(user.password));
+// console.log({}+1)
+// console.log({}+'1')
+// console.log({}+[])
+// console.log(typeof ([]+1))
+// console.log([]-1)
+// console.log(typeof ([1]+1))
+// console.log([2]+[1])
+// console.log([2]-[1])
+// console.log([2]+true)
+
+
+
+
+
+
+
