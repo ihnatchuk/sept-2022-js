@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="homework2 (arrays, objects)">
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="homework2 (arrays, objects) приведення типів">
+      <change afterPath="$PROJECT_DIR$/lesson3/experiments/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/experiments/script/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw2/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw2/script/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/oktenweb/sept-2022-js/lesson3/experiments"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\oktenweb\sept-2022-js\lesson3\experiments" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\oktenweb\sept-2022-js\hw1\script" />
     </key>
@@ -56,7 +61,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667239462029</updated>
       <workItem from="1667239463593" duration="4633000" />
-      <workItem from="1667498235610" duration="1756000" />
+      <workItem from="1667498235610" duration="3124000" />
+      <workItem from="1667773596475" duration="2265000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -72,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667424324914</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="homework2 (arrays, objects) приведення типів">
+      <created>1667502515158</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667502515158</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JS hw1, task1" />
     <MESSAGE value="homework2 (arrays, objects)" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework2 (arrays, objects)" />
+    <MESSAGE value="homework2 (arrays, objects) приведення типів" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework2 (arrays, objects) приведення типів" />
   </component>
 </project>
