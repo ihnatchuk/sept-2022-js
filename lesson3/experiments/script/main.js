@@ -33,23 +33,26 @@
 //     default:
 //         console.log('??????')
 // }
-let num=0
-switch (true){
-    case num<=-20:
-        console.log('<=-20');
-        break;
-    case num<=-10:
-        console.log('-20<num<=-10');
-        break;
-    case num<=0:
-        console.log('-10<num<=0');
-        break;
-    case num<=10:
-        console.log('0<num<=10');
-        break;
-    case num<=20:
-        console.log('10<num<=20');
-        break;
-    default:
-        console.log('20<num')
-}
+// let num=0
+// switch (true){
+//     case num<=-20:
+//         console.log('<=-20');
+//         break;
+//     case num<=-10:
+//         console.log('-20<num<=-10');
+//         break;
+//     case num<=0:
+//         console.log('-10<num<=0');
+//         break;
+//     case num<=10:
+//         console.log('0<num<=10');
+//         break;
+//     case num<=20:
+//         console.log('10<num<=20');
+//         break;
+//     default:
+//         console.log('20<num')
+// }
+
+let isNotEmpty=confirm('dfbdf')||confirm('3533');
+console.log(isNotEmpty);
