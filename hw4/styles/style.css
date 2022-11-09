@@ -1,0 +1,22 @@
+.ultext{
+    background-color: #8bb6f3;
+}
+.oltext{
+    background-color: #f7ffa6;
+}
+img{
+    height:250px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+.product-card{
+    display: flex;
+    flex-direction:column-reverse ;
+    justify-content: center;
+    align-items: center;
+}
