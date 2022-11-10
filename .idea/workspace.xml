@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw4  (for of, for i, while) edited">
-      <change afterPath="$PROJECT_DIR$/hw4_additional1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw4_additional1/script/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw4_additional1/styles/style.css" afterDir="false" />
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw4  aditional1">
+      <change afterPath="$PROJECT_DIR$/hw4_additional2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4_additional2/script/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4_additional2/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +42,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/oktenweb/sept-2022-js/hw4_additional1"
+    "last_opened_file_path": "D:/oktenweb/sept-2022-js"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\oktenweb\sept-2022-js\hw4_additional1" />
       <recent name="D:\oktenweb\sept-2022-js" />
+      <recent name="D:\oktenweb\sept-2022-js\hw4_additional1" />
       <recent name="D:\oktenweb\sept-2022-js\hw3" />
       <recent name="D:\oktenweb\sept-2022-js\lesson3\experiments" />
     </key>
@@ -71,7 +71,7 @@
       <workItem from="1667848677601" duration="4810000" />
       <workItem from="1667937026788" duration="1263000" />
       <workItem from="1668028608813" duration="6068000" />
-      <workItem from="1668067705971" duration="7963000" />
+      <workItem from="1668067705971" duration="10932000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668034024182</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hw4  aditional1">
+      <created>1668077840665</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668077840665</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +154,7 @@
     <MESSAGE value="hw3, if, switch, falsy values" />
     <MESSAGE value="hw4  (for of, for i, while)" />
     <MESSAGE value="hw4  (for of, for i, while) edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw4  (for of, for i, while) edited" />
+    <MESSAGE value="hw4  aditional1" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw4  aditional1" />
   </component>
 </project>
