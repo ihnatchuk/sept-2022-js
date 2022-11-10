@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="if, switch">
-      <change afterPath="$PROJECT_DIR$/hw3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/script/main.js" afterDir="false" />
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw4  (for of, for i, while) edited">
+      <change afterPath="$PROJECT_DIR$/hw4_additional1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4_additional1/script/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4_additional1/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3/experiments/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3/experiments/script/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +42,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/oktenweb/sept-2022-js/hw3"
+    "last_opened_file_path": "D:/oktenweb/sept-2022-js/hw4_additional1"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\oktenweb\sept-2022-js\hw4_additional1" />
+      <recent name="D:\oktenweb\sept-2022-js" />
       <recent name="D:\oktenweb\sept-2022-js\hw3" />
       <recent name="D:\oktenweb\sept-2022-js\lesson3\experiments" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\oktenweb\sept-2022-js\hw4\styles" />
       <recent name="D:\oktenweb\sept-2022-js\hw1\script" />
     </key>
   </component>
@@ -65,7 +68,10 @@
       <workItem from="1667239463593" duration="4633000" />
       <workItem from="1667498235610" duration="3124000" />
       <workItem from="1667773596475" duration="2356000" />
-      <workItem from="1667848677601" duration="4582000" />
+      <workItem from="1667848677601" duration="4810000" />
+      <workItem from="1667937026788" duration="1263000" />
+      <workItem from="1668028608813" duration="6068000" />
+      <workItem from="1668067705971" duration="7963000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -95,7 +101,28 @@
       <option name="project" value="LOCAL" />
       <updated>1667775943003</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hw3, if, switch, falsy values">
+      <created>1667857561994</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667857561994</updated>
+    </task>
+    <task id="LOCAL-00006" summary="hw4  (for of, for i, while)">
+      <created>1668033862507</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668033862507</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hw4  (for of, for i, while) edited">
+      <created>1668034024182</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668034024182</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +144,9 @@
     <MESSAGE value="homework2 (arrays, objects)" />
     <MESSAGE value="homework2 (arrays, objects) приведення типів" />
     <MESSAGE value="if, switch" />
-    <option name="LAST_COMMIT_MESSAGE" value="if, switch" />
+    <MESSAGE value="hw3, if, switch, falsy values" />
+    <MESSAGE value="hw4  (for of, for i, while)" />
+    <MESSAGE value="hw4  (for of, for i, while) edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw4  (for of, for i, while) edited" />
   </component>
 </project>
