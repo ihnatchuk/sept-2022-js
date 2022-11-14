@@ -9,14 +9,14 @@
 //     a. заповнити його 50 парними числами за допомоги циклу.
 const arrEven=[];
 for (let i = 0; i < 50; i++) {
-    arrEven.push(2*i);
+    arrEven[i]=2*i;
 }
 console.log(arrEven);
 
 //     b. заповнити його 50 непарними числами за допомоги циклу.
 const arrOdd=[];
 for (let i = 0; i < 50; i++) {
-    arrOdd.push(2*i+1);
+    arrOdd[i]=2*i+1;
 }
 console.log(arrOdd);
 
@@ -256,4 +256,3 @@ for (const letter of letters2) {
     word2+=letter
 }
 console.log(word2);
-
