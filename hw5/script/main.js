@@ -108,38 +108,71 @@ function usersWriter(users){
 usersWriter(users);
 
 // - створити функцію яка повертає найменьше число з масиву
-const numbersArray=[2,3,56,45,34,7,67,87,0,-123,345,3,45,6,66,67,78,9,0];
-
-const minArrayItem=array=>{
-    let min=array[0];
-    for (const item of array) {
-        if (item<min){
-            min=item;
+{
+    const numbersArray=[2,3,56,45,34,7,67,87,0,-123,345,3,45,6,66,67,78,9,0,56];
+    const minArrayItem=array=> {
+        let min = array[0];
+        for (const item of array) {
+            if (item < min) {
+                min = item;
+            }
         }
+        return min;
     }
-    return min;
+    const d = new Date();
+    console.log(`${d.getMinutes()}:${d.getSeconds()}`);
+    let min;
+    for (let i = 0; i < 100000000; i++) {
+        min=minArrayItem(numbersArray)
+    }
+    console.log('min: ',min);
+    const d1 = new Date();
+    console.log(`${d1.getMinutes()}:${d1.getSeconds()}`);
 }
-console.log('min: ',minArrayItem(numbersArray));
+
 
 // - створити функцію яка повертає найменьше число з масиву spread+Math.min
-function minArrayItem2(array){
-    return Math.min(...array);
-};
-console.log(minArrayItem2(numbersArray));
+{
+    const numbersArray=[2,3,56,45,34,7,67,87,0,-123,345,3,45,6,66,67,78,9,0,56];
+    const minArrayItem3=(array)=>Math.min(...array);
+    const d = new Date();
+    console.log(`${d.getMinutes()}:${d.getSeconds()}`);
+    let min;
+    for (let i = 0; i < 100000000; i++) {
+        min=minArrayItem3(numbersArray)
+    }
+    console.log('min: ',min);
+    const d1 = new Date();
+    console.log(`${d1.getMinutes()}:${d1.getSeconds()}`);
+}
+
+
+{
+    const numbersArray=[2,3,56,45,34,7,67,87,0,-123,345,3,45,6,66,67,78,9,0,56];
+    function minArrayItem2(array){
+        return Math.min(...array);
+    };
+    console.log(minArrayItem2(numbersArray));
+}
+
 
 
 // - створити arrow-функцію яка повертає найменьше число з масиву spread+Math.min
-const minArrayItem3=(array)=>Math.min(...array);
-
-console.log(minArrayItem3(numbersArray));
+{
+    const numbersArray = [2, 3, 56, 45, 34, 7, 67, 87, 0, -123, 345, 3, 45, 6, 66, 67, 78, 9, 0, 56];
+    const minArrayItem3 = (array) => Math.min(...array);
+    console.log(minArrayItem3(numbersArray));
+}
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
-
-const sumArrayItem=array=>{
-    let sum=0;
-    for (const item of array) {
-        sum+=item;
+{
+    const numbersArray = [2, 3, 56, 45, 34, 7, 67, 87, 0, -123, 345, 3, 45, 6, 66, 67, 78, 9, 0, 56];
+    const sumArrayItem = array => {
+        let sum = 0;
+        for (const item of array) {
+            sum += item;
+        }
+        return sum;
     }
-    return sum;
+    console.log('Sum: ', sumArrayItem(numbersArray));
 }
-console.log('Sum: ',sumArrayItem(numbersArray));
