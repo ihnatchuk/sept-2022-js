@@ -121,6 +121,18 @@ const minArrayItem=array=>{
 }
 console.log('min: ',minArrayItem(numbersArray));
 
+// - створити функцію яка повертає найменьше число з масиву spread+Math.min
+function minArrayItem2(array){
+    return Math.min(...array);
+};
+console.log(minArrayItem2(numbersArray));
+
+
+// - створити arrow-функцію яка повертає найменьше число з масиву spread+Math.min
+const minArrayItem3=(array)=>Math.min(...array);
+
+console.log(minArrayItem3(numbersArray));
+
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
 const sumArrayItem=array=>{
