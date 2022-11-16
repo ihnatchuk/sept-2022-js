@@ -120,14 +120,14 @@ usersWriter(users);
         return min;
     }
     const d = new Date();
-    console.log(`${d.getMinutes()}:${d.getSeconds()}`);
+    console.log(`Start ${d.getMinutes()}:${d.getSeconds()}`);
     let min;
     for (let i = 0; i < 100000000; i++) {
         min=minArrayItem(numbersArray)
     }
     console.log('min: ',min);
     const d1 = new Date();
-    console.log(`${d1.getMinutes()}:${d1.getSeconds()}`);
+    console.log(`Finish ${d1.getMinutes()}:${d1.getSeconds()}`);
 }
 
 
@@ -136,14 +136,14 @@ usersWriter(users);
     const numbersArray=[2,3,56,45,34,7,67,87,0,-123,345,3,45,6,66,67,78,9,0,56];
     const minArrayItem3=(array)=>Math.min(...array);
     const d = new Date();
-    console.log(`${d.getMinutes()}:${d.getSeconds()}`);
+    console.log(`Start ${d.getMinutes()}:${d.getSeconds()}`);
     let min;
     for (let i = 0; i < 100000000; i++) {
         min=minArrayItem3(numbersArray)
     }
     console.log('min: ',min);
     const d1 = new Date();
-    console.log(`${d1.getMinutes()}:${d1.getSeconds()}`);
+    console.log(`Finish ${d1.getMinutes()}:${d1.getSeconds()}`);
 }
 
 
