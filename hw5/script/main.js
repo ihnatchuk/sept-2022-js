@@ -4,7 +4,7 @@ let area=(a,b)=>a*b;
 console.log(area(5, 7));
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
-let circleArea=(r)=>Math.PI*r*r;
+let circleArea=r=>Math.PI*r*r;
 console.log(circleArea(10));
 
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
@@ -14,7 +14,7 @@ console.log(cylinderArea(10, 10));
 // - створити функцію яка приймає масив та виводить кожен його елемент
 const arr=[2,3,4,6,'dfg',true, 'gfghf', 345, 35,{}];
 
-let printArray=(array)=>{
+let printArray=array=>{
     for (const arrayElement of array) {
         console.log(arrayElement);
     }
@@ -134,7 +134,7 @@ usersWriter(users);
 // - створити функцію яка повертає найменьше число з масиву spread+Math.min
 {
     const numbersArray=[2,3,56,45,34,7,67,87,0,-123,345,3,45,6,66,67,78,9,0,56];
-    const minArrayItem3=(array)=>Math.min(...array);
+    const minArrayItem3=array=>Math.min(...array);
     const d = new Date();
     console.log(`Start ${d.getMinutes()}:${d.getSeconds()}`);
     let min;
@@ -151,16 +151,15 @@ usersWriter(users);
     const numbersArray=[2,3,56,45,34,7,67,87,0,-123,345,3,45,6,66,67,78,9,0,56];
     function minArrayItem2(array){
         return Math.min(...array);
-    };
+    }
     console.log(minArrayItem2(numbersArray));
 }
-
 
 
 // - створити arrow-функцію яка повертає найменьше число з масиву spread+Math.min
 {
     const numbersArray = [2, 3, 56, 45, 34, 7, 67, 87, 0, -123, 345, 3, 45, 6, 66, 67, 78, 9, 0, 56];
-    const minArrayItem3 = (array) => Math.min(...array);
+    const minArrayItem3 = array => Math.min(...array);
     console.log(minArrayItem3(numbersArray));
 }
 
