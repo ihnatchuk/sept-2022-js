@@ -200,3 +200,30 @@ numABPrint2(20,25)
     console.log(arrZero);
 
 }
+
+//
+// const foo=(...arg)=>{
+//     if (arg.length===1){
+//         console.log(arg[0]);
+//     } else{
+//         console.log(arg[0]+arg[1]);
+//     }
+// }
+// foo(1,2);
+
+const argumentsSum=function () {
+    let sum = 0;
+    for (const argument of arguments) {
+        sum += argument;
+    }
+    return sum;
+}
+
+console.log(argumentsSum(2, 3, 4, 5, 6, 7, 8));
+
+// const foo=()=>{
+//     console.log(arguments);
+// }
+// foo(1,2);
+
+

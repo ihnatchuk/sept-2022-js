@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw5  function declaration, expression; arrow functions;&#10;spread+Math.min&#10;&#10;execution speed of two algorithms to find minimal value in array.&#10;start finish">
-      <change afterPath="$PROJECT_DIR$/hw5 additional/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw5 additional/script/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw5 additional/styles/style.css" afterDir="false" />
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw5  additional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw5/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw5/script/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5 additional/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw5 additional/script/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +77,7 @@
       <workItem from="1668448803700" duration="6286000" />
       <workItem from="1668589690048" duration="773000" />
       <workItem from="1668612151460" duration="6889000" />
-      <workItem from="1668670700730" duration="5510000" />
+      <workItem from="1668670700730" duration="10476000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -187,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668615569392</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="hw5  additional">
+      <created>1668682609280</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668682609280</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +224,7 @@
     <MESSAGE value="hw5  function declaration, expression; arrow functions;&#10;spread+Math.min" />
     <MESSAGE value="hw5  function declaration, expression; arrow functions;&#10;spread+Math.min&#10;&#10;execution speed of two algorithms to find minimal value in array." />
     <MESSAGE value="hw5  function declaration, expression; arrow functions;&#10;spread+Math.min&#10;&#10;execution speed of two algorithms to find minimal value in array.&#10;start finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw5  function declaration, expression; arrow functions;&#10;spread+Math.min&#10;&#10;execution speed of two algorithms to find minimal value in array.&#10;start finish" />
+    <MESSAGE value="hw5  additional" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw5  additional" />
   </component>
 </project>
