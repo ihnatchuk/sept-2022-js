@@ -139,3 +139,31 @@ console.log(dec.filter(card => (card.value.length >= 2) && (card.cardSuit === 'c
 //     hearts:[],
 //     clubs:[]
 // }
+
+const sortedDec={
+    spades:[],
+    diamonds:[],
+    hearts:[],
+    clubs:[]
+};
+dec.reduce((counter, card)=>{
+    switch(card.cardSuit){
+        case 'spade':
+            counter['spades'].push(card);
+            break;
+        case 'diamond':
+            counter['diamonds'].push(card);
+            break;
+        case 'heart':
+            counter['hearts'].push(card);
+            break;
+        case 'clubs':
+            counter['clubs'].push(card);
+            break;
+        default:
+            console.log('error');
+    }
+    return sortedDec;
+},sortedDec);
+console.log('----------------------------------------');
+console.log(sortedDec);
