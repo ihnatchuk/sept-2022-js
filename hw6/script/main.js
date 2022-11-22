@@ -137,7 +137,7 @@ console.log(dec.filter(card => card.color === 'red'));
 console.log(dec.filter(card => card.cardSuit === 'diamond'));
 
 // - всі трефи від 9 та більше
-console.log(dec.filter(card => (card.value.length >= 2) && (card.cardSuit === 'clubs')));
+console.log(dec.filter(card => (card.value.length >= 2||card.value==='9') && (card.cardSuit === 'clubs')));
 
 
 
@@ -178,3 +178,6 @@ dec.reduce((counter, card)=>{
 },sortedDec);
 console.log('----------------------------------------');
 console.log(sortedDec);
+
+
+console.log('9' > '90');
