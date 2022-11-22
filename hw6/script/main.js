@@ -12,6 +12,17 @@ console.log(str1.length);
 console.log(str2.length);
 console.log(str3.length);
 
+console.log(str1.toUpperCase());
+console.log(str2.toUpperCase());
+console.log(str3.toUpperCase());
+
+console.log(str1.toLowerCase());
+console.log(str2.toLowerCase());
+console.log(str3.toLowerCase());
+
+
+let dirtystr = ' dirty string   ';
+console.log(dirtystr.trim());
 
 // - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
 //     let str = 'Ревуть воли як ясла повні';
