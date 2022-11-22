@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw5  additional">
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw5  additional&#10;arguments in functions">
+      <change afterPath="$PROJECT_DIR$/hw5_add2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw5_add2/script/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw5_add2/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw6/script/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw5 additional/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw5 additional/script/main.js" afterDir="false" />
     </list>
@@ -34,22 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/oktenweb/sept-2022-js/hw5 additional&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/oktenweb/sept-2022-js/hw6",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\oktenweb\sept-2022-js\hw6" />
+      <recent name="D:\oktenweb\sept-2022-js\hw5 add2" />
       <recent name="D:\oktenweb\sept-2022-js\hw5 additional" />
       <recent name="D:\oktenweb\sept-2022-js\hw5" />
       <recent name="D:\oktenweb\sept-2022-js" />
-      <recent name="D:\oktenweb\sept-2022-js\hw4_additional1" />
-      <recent name="D:\oktenweb\sept-2022-js\hw3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\oktenweb\sept-2022-js\hw4\styles" />
@@ -77,7 +83,9 @@
       <workItem from="1668448803700" duration="6286000" />
       <workItem from="1668589690048" duration="773000" />
       <workItem from="1668612151460" duration="6889000" />
-      <workItem from="1668670700730" duration="10476000" />
+      <workItem from="1668670700730" duration="11184000" />
+      <workItem from="1668789932052" duration="7684000" />
+      <workItem from="1669134401148" duration="5188000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -191,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668682609280</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hw5  additional&#10;arguments in functions">
+      <created>1668713810277</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668713810277</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +240,7 @@
     <MESSAGE value="hw5  function declaration, expression; arrow functions;&#10;spread+Math.min&#10;&#10;execution speed of two algorithms to find minimal value in array." />
     <MESSAGE value="hw5  function declaration, expression; arrow functions;&#10;spread+Math.min&#10;&#10;execution speed of two algorithms to find minimal value in array.&#10;start finish" />
     <MESSAGE value="hw5  additional" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw5  additional" />
+    <MESSAGE value="hw5  additional&#10;arguments in functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw5  additional&#10;arguments in functions" />
   </component>
 </project>
