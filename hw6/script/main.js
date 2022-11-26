@@ -178,6 +178,3 @@ dec.reduce((counter, card)=>{
 },sortedDec);
 console.log('----------------------------------------');
 console.log(sortedDec);
-
-
-console.log('9' > '90');
