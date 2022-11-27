@@ -39,8 +39,8 @@ const userCard=(key)=>{
              });
          },
          transferCredits(amount,cardToTransfer){
-             card.takeCredits(amount);
-             cardToTransfer.putCredits(amount*0.995);
+             this.takeCredits(Math.fround(amount*1.005));
+             cardToTransfer.putCredits(amount);
          },
          getCardOptions(){
              return {...card}
@@ -48,6 +48,7 @@ const userCard=(key)=>{
      }
 }
 const card3=userCard(3);
+const card1=userCard(1);
 console.log(card3.getCardOptions());
 card3.putCredits(200);
 card3.putCredits(300);
@@ -56,7 +57,9 @@ card3.takeCredits(100)
 card3.takeCredits(250);
 card3.setTransactionLimit(500);
 card3.takeCredits(250);
+card3.transferCredits(300,card1);
 
 console.log(card3.getCardOptions());
+console.log(card1.getCardOptions());
 
 

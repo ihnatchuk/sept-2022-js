@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw6 additional &#10;array and string methods">
-      <change afterPath="$PROJECT_DIR$/hw7_additional_closures/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw7_additional_closures/script/main.js" afterDir="false" />
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw7 additional &#10;userCard created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw7_additional_closures/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw7_additional_closures/script/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,7 @@
       <workItem from="1669134401148" duration="11842000" />
       <workItem from="1669387227575" duration="18619000" />
       <workItem from="1669459728286" duration="1870000" />
-      <workItem from="1669503613347" duration="10336000" />
+      <workItem from="1669503613347" duration="11260000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -240,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669506048619</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="hw7 additional &#10;userCard created">
+      <created>1669514262761</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1669514262761</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +286,7 @@
     <MESSAGE value="hw6  edited" />
     <MESSAGE value="hw6  edited1" />
     <MESSAGE value="hw6 additional &#10;array and string methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw6 additional &#10;array and string methods" />
+    <MESSAGE value="hw7 additional &#10;userCard created" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw7 additional &#10;userCard created" />
   </component>
 </project>
