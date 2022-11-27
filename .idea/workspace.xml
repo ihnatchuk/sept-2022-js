@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw6  edited1">
-      <change afterPath="$PROJECT_DIR$/hw6 additional/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw6 additional/script/main.js" afterDir="false" />
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw6 additional &#10;array and string methods">
+      <change afterPath="$PROJECT_DIR$/hw7_additional_closures/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw7_additional_closures/script/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw6/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw6/script/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/oktenweb/sept-2022-js&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/oktenweb/sept-2022-js/hw7_additional_closures",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\oktenweb\sept-2022-js\hw7_additional_closures" />
       <recent name="D:\oktenweb\sept-2022-js" />
       <recent name="D:\oktenweb\sept-2022-js\hw6" />
       <recent name="D:\oktenweb\sept-2022-js\hw5 add2" />
       <recent name="D:\oktenweb\sept-2022-js\hw5 additional" />
-      <recent name="D:\oktenweb\sept-2022-js\hw5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\oktenweb\sept-2022-js\hw4\styles" />
@@ -85,7 +84,7 @@
       <workItem from="1669134401148" duration="11842000" />
       <workItem from="1669387227575" duration="18619000" />
       <workItem from="1669459728286" duration="1870000" />
-      <workItem from="1669503613347" duration="2294000" />
+      <workItem from="1669503613347" duration="10336000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -234,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669144198478</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="hw6 additional &#10;array and string methods">
+      <created>1669506048619</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1669506048619</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +279,7 @@
     <MESSAGE value="hw6  reduce" />
     <MESSAGE value="hw6  edited" />
     <MESSAGE value="hw6  edited1" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw6  edited1" />
+    <MESSAGE value="hw6 additional &#10;array and string methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw6 additional &#10;array and string methods" />
   </component>
 </project>
