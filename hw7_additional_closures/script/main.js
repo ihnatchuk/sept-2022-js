@@ -47,19 +47,39 @@ const userCard=(key)=>{
          }
      }
 }
-const card3=userCard(3);
-const card1=userCard(1);
-console.log(card3.getCardOptions());
-card3.putCredits(200);
-card3.putCredits(300);
-card3.putCredits(400);
-card3.takeCredits(100)
-card3.takeCredits(250);
-card3.setTransactionLimit(500);
-card3.takeCredits(250);
-card3.transferCredits(300,card1);
 
-console.log(card3.getCardOptions());
+function UserAccount(userName) {
+        this.name=userName,
+        this.cards=[],
+        this.addCard=function (){
+            if (this.cards.length<3){
+                this.cards.push(userCard(this.cards.length+1));
+            } else{
+                console.log('You can not have more than 3 cards!');
+            }
+        },
+        this.getCardByKey=function (key){
+            if((Number.isInteger(key))&&(key>0)&&(key<=3)){
+                return this.cards[key-1];
+            }else {
+                console.log('key must be 1,2 or 3');
+            }
+        }
+}
+
+let user=new UserAccount('Dima');
+user.addCard();
+user.addCard();
+
+let card1=user.getCardByKey(4);
+let card2=user.getCardByKey(2);
+
+card1.putCredits(500);
+card1.setTransactionLimit(800);
+card1.transferCredits(300,card2);
+card2.takeCredits(50);
 console.log(card1.getCardOptions());
+console.log(card2.getCardOptions());
+
 
 

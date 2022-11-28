@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw7 additional &#10;userCard created">
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw7 additional &#10;userCard created&#10;Math.fround">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw7_additional_closures/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw7_additional_closures/script/main.js" afterDir="false" />
     </list>
@@ -34,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/oktenweb/sept-2022-js/hw7_additional_closures",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/oktenweb/sept-2022-js/hw7_additional_closures&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\oktenweb\sept-2022-js\hw7_additional_closures" />
@@ -83,7 +83,9 @@
       <workItem from="1669134401148" duration="11842000" />
       <workItem from="1669387227575" duration="18619000" />
       <workItem from="1669459728286" duration="1870000" />
-      <workItem from="1669503613347" duration="11260000" />
+      <workItem from="1669503613347" duration="11344000" />
+      <workItem from="1669549093108" duration="2057000" />
+      <workItem from="1669660510181" duration="5008000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -246,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669514262761</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="hw7 additional &#10;userCard created&#10;Math.fround">
+      <created>1669515213983</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1669515213983</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +296,7 @@
     <MESSAGE value="hw6  edited1" />
     <MESSAGE value="hw6 additional &#10;array and string methods" />
     <MESSAGE value="hw7 additional &#10;userCard created" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw7 additional &#10;userCard created" />
+    <MESSAGE value="hw7 additional &#10;userCard created&#10;Math.fround" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw7 additional &#10;userCard created&#10;Math.fround" />
   </component>
 </project>
