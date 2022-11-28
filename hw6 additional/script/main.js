@@ -60,6 +60,21 @@ console.log(normalizeStr(n1));
 console.log(normalizeStr(n2));
 console.log(normalizeStr(n3));
 
+let n4 = '%$#*^%   - **Harry-2 3234-       Potter333333333'
+const normalizeStrPlus=str=>{
+    let str1=str.match(/[A-Z,a-z]/g).join('');
+    let str2='';
+    for (const char of str1) {
+        if (char.charCodeAt(0)<97){
+            str2=str2+' '+char;
+        }else{
+            str2+=char;
+        }
+    }
+    return str2.trim();
+}
+console.log(normalizeStrPlus(n4));
+
 
 // - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
 
