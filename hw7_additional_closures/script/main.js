@@ -71,15 +71,15 @@ let user=new UserAccount('Dima');
 user.addCard();
 user.addCard();
 
-let card1=user.getCardByKey(4);
+let card1=user.getCardByKey(1);
 let card2=user.getCardByKey(2);
 
-card1.putCredits(500);
-card1.setTransactionLimit(800);
-card1.transferCredits(300,card2);
-card2.takeCredits(50);
-console.log(card1.getCardOptions());
-console.log(card2.getCardOptions());
+card1?.putCredits(500);
+card1?.setTransactionLimit(800);
+card1?.transferCredits(300,card2);
+card2?.takeCredits(50);
+console.log(card1?.getCardOptions());
+console.log(card2?.getCardOptions());
 
 
 
