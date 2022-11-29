@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw7 additional &#10;class UserAccount&#10;?. is used">
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw6 additional &#10;'%$#*^%   - **Harry-2 3234-       Potter333333333'  normalize">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw6 additional/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw6 additional/script/main.js" afterDir="false" />
     </list>
@@ -85,7 +85,9 @@
       <workItem from="1669459728286" duration="1870000" />
       <workItem from="1669503613347" duration="11344000" />
       <workItem from="1669549093108" duration="2057000" />
-      <workItem from="1669660510181" duration="9617000" />
+      <workItem from="1669660510181" duration="9702000" />
+      <workItem from="1669672021842" duration="1062000" />
+      <workItem from="1669748691456" duration="2467000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -269,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669667628559</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="hw6 additional &#10;'%$#*^%   - **Harry-2 3234-       Potter333333333'  normalize">
+      <created>1669671841991</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1669671841991</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +296,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="homework2 (arrays, objects)" />
     <MESSAGE value="homework2 (arrays, objects) приведення типів" />
     <MESSAGE value="if, switch" />
     <MESSAGE value="hw3, if, switch, falsy values" />
@@ -312,6 +320,7 @@
     <MESSAGE value="hw7 additional &#10;userCard created&#10;Math.fround" />
     <MESSAGE value="hw7 additional &#10;class UserAccount" />
     <MESSAGE value="hw7 additional &#10;class UserAccount&#10;?. is used" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw7 additional &#10;class UserAccount&#10;?. is used" />
+    <MESSAGE value="hw6 additional &#10;'%$#*^%   - **Harry-2 3234-       Potter333333333'  normalize" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw6 additional &#10;'%$#*^%   - **Harry-2 3234-       Potter333333333'  normalize" />
   </component>
 </project>

@@ -265,6 +265,26 @@ const count=(str, stringsearch)=>{
 }
 console.log(count(str5, symb));
 
+// якщо symb це довільна стрічка
+console.log('-----------------strplus-------------------------');
+let strplus = "Астрономия это наука об небесных объектах";
+let symb2 = "об";
+const countPlus=(str, stringsearch)=>{
+    let counter=0;
+    let i=0;
+    while (i < str.length) {
+        let index=str.slice(i).indexOf(stringsearch);
+        if (index>0){
+            counter++;
+            i+=index+stringsearch.length;
+        }else{
+            i++;
+        }
+    }
+    return counter;
+}
+console.log(countPlus(strplus, symb2));
+
 // - Напишіть функцію cutString(str, n), яка видаляє зайві слова з рядка str, залишивши у ній n слів.
 //     let str = "Сила тяжести приложена к центру масс тела";
 // document.writeln(cutString(str, 5)) // 'Сила тяжести приложена к центру'
