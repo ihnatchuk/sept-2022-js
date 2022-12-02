@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw6 additional &#10;'%$#*^%   - **Harry-2 3234-       Potter333333333'  normalize">
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw6 additional &#10;strplus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw6 additional/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw6 additional/script/main.js" afterDir="false" />
     </list>
@@ -87,7 +87,10 @@
       <workItem from="1669549093108" duration="2057000" />
       <workItem from="1669660510181" duration="9702000" />
       <workItem from="1669672021842" duration="1062000" />
-      <workItem from="1669748691456" duration="2467000" />
+      <workItem from="1669748691456" duration="3304000" />
+      <workItem from="1669811037623" duration="1617000" />
+      <workItem from="1669891816022" duration="297000" />
+      <workItem from="1670005423523" duration="2654000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -278,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669671841991</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="hw6 additional &#10;strplus">
+      <created>1669757464923</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1669757464923</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +306,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="homework2 (arrays, objects) приведення типів" />
     <MESSAGE value="if, switch" />
     <MESSAGE value="hw3, if, switch, falsy values" />
     <MESSAGE value="hw4  (for of, for i, while)" />
@@ -321,6 +330,7 @@
     <MESSAGE value="hw7 additional &#10;class UserAccount" />
     <MESSAGE value="hw7 additional &#10;class UserAccount&#10;?. is used" />
     <MESSAGE value="hw6 additional &#10;'%$#*^%   - **Harry-2 3234-       Potter333333333'  normalize" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw6 additional &#10;'%$#*^%   - **Harry-2 3234-       Potter333333333'  normalize" />
+    <MESSAGE value="hw6 additional &#10;strplus" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw6 additional &#10;strplus" />
   </component>
 </project>

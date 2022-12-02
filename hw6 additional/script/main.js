@@ -60,9 +60,9 @@ console.log(normalizeStr(n1));
 console.log(normalizeStr(n2));
 console.log(normalizeStr(n3));
 
-let n4 = '%$#*^%   - **Harry-2 3234-       Potter333333333'
+let n4 = '%$#*^%   - **Ha444$$3rry-2 3234-       Pot333ter333333333'
 const normalizeStrPlus=str=>{
-    let str1=str.match(/[A-Z,a-z]/g).join('');
+    let str1=str.match(/[A-Za-z]/g).join('');
     let str2='';
     for (const char of str1) {
         if (char.charCodeAt(0)<97){
@@ -73,6 +73,7 @@ const normalizeStrPlus=str=>{
     }
     return str2.trim();
 }
+console.log(n4);
 console.log(normalizeStrPlus(n4));
 
 
@@ -353,4 +354,13 @@ console.log(oneAuthorsBook);
 // - вісортувати книжки по кількості сторінок по зростанню
 books.sort((a,b)=>a.pageCount-b.pageCount);
 console.log(books);
+
+
+// console.log(books.push({}));
+
+//- єдиним авторам книг дати нагороду
+const oneAuthorsBookAward=books.map(book=> book.authors.length===1&&{...book, awarded:true}).filter(book=>book);
+console.log(oneAuthorsBookAward);
+
+
 
