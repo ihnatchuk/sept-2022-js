@@ -362,5 +362,30 @@ console.log(books);
 const oneAuthorsBookAward=books.map(book=> book.authors.length===1&&{...book, awarded:true}).filter(book=>book);
 console.log(oneAuthorsBookAward);
 
+const users = [
+    {
+        name:'Vasya',
+        age:22,
+        isMarried: true
+    },
+    {
+        name:'Roma',
+        age:22,
+        isMarried: true
+    },
+    {
+        name:'Anya',
+        age:22,
+        isMarried: false
+    }
+]
 
+// let reduce = users.reduce((acc, value, index) => value.isMarried ? [...acc,{...value,flat: index +1}] : acc,[]);
+// console.log(reduce);
+// console.log(users);
+
+
+let withFlat = users.map((user,index) => user.isMarried && {...user,flat: index +1}).filter(user=>user);
+console.log(withFlat);
+console.log(users);
 
