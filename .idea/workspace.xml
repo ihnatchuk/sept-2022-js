@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw6 additional new task">
-      <change afterPath="$PROJECT_DIR$/hw7_class/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw7_class/script/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw8/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw8/script/main.js" afterDir="false" />
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw8 Users and Clients class&#10;array of users generator&#10;array of Clients ganerator">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw6 additional/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw6 additional/script/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw8/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw8/script/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/oktenweb/sept-2022-js/hw8",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/oktenweb/sept-2022-js/hw8&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\oktenweb\sept-2022-js\hw8" />
@@ -96,7 +92,9 @@
       <workItem from="1669891816022" duration="297000" />
       <workItem from="1670005423523" duration="2704000" />
       <workItem from="1670076835095" duration="2838000" />
-      <workItem from="1670275402353" duration="5864000" />
+      <workItem from="1670275402353" duration="6053000" />
+      <workItem from="1670350406325" duration="3966000" />
+      <workItem from="1670529151688" duration="3495000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -301,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670008145174</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="hw8 Users and Clients class&#10;array of users generator&#10;array of Clients ganerator">
+      <created>1670281481870</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1670281481870</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +324,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hw3, if, switch, falsy values" />
     <MESSAGE value="hw4  (for of, for i, while)" />
     <MESSAGE value="hw4  (for of, for i, while) edited" />
     <MESSAGE value="hw4  aditional1" />
@@ -344,6 +348,7 @@
     <MESSAGE value="hw6 additional &#10;'%$#*^%   - **Harry-2 3234-       Potter333333333'  normalize" />
     <MESSAGE value="hw6 additional &#10;strplus" />
     <MESSAGE value="hw6 additional new task" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw6 additional new task" />
+    <MESSAGE value="hw8 Users and Clients class&#10;array of users generator&#10;array of Clients ganerator" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw8 Users and Clients class&#10;array of users generator&#10;array of Clients ganerator" />
   </component>
 </project>
