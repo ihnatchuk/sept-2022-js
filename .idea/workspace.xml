@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw6 additional &#10;'%$#*^%   - **Harry-2 3234-       Potter333333333'  normalize">
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw8 completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw6 additional/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw6 additional/script/main.js" afterDir="false" />
     </list>
@@ -34,25 +37,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/oktenweb/sept-2022-js/hw7_additional_closures&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/oktenweb/sept-2022-js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\oktenweb\sept-2022-js\hw9" />
+      <recent name="D:\oktenweb\sept-2022-js\hw8" />
       <recent name="D:\oktenweb\sept-2022-js\hw7_additional_closures" />
       <recent name="D:\oktenweb\sept-2022-js" />
       <recent name="D:\oktenweb\sept-2022-js\hw6" />
-      <recent name="D:\oktenweb\sept-2022-js\hw5 add2" />
-      <recent name="D:\oktenweb\sept-2022-js\hw5 additional" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\oktenweb\sept-2022-js\hw9\style" />
       <recent name="D:\oktenweb\sept-2022-js\hw4\styles" />
       <recent name="D:\oktenweb\sept-2022-js\hw1\script" />
     </key>
@@ -87,7 +97,16 @@
       <workItem from="1669549093108" duration="2057000" />
       <workItem from="1669660510181" duration="9702000" />
       <workItem from="1669672021842" duration="1062000" />
-      <workItem from="1669748691456" duration="2467000" />
+      <workItem from="1669748691456" duration="3304000" />
+      <workItem from="1669811037623" duration="1617000" />
+      <workItem from="1669891816022" duration="297000" />
+      <workItem from="1670005423523" duration="2704000" />
+      <workItem from="1670076835095" duration="2838000" />
+      <workItem from="1670275402353" duration="6053000" />
+      <workItem from="1670350406325" duration="3966000" />
+      <workItem from="1670529151688" duration="7961000" />
+      <workItem from="1670618942104" duration="701000" />
+      <workItem from="1670622043728" duration="711000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -278,7 +297,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669671841991</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="hw6 additional &#10;strplus">
+      <created>1669757464923</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1669757464923</updated>
+    </task>
+    <task id="LOCAL-00029" summary="hw6 additional new task">
+      <created>1670008145174</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670008145174</updated>
+    </task>
+    <task id="LOCAL-00030" summary="hw8 Users and Clients class&#10;array of users generator&#10;array of Clients ganerator">
+      <created>1670281481870</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1670281481870</updated>
+    </task>
+    <task id="LOCAL-00031" summary="hw8 completed">
+      <created>1670535517938</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1670535517938</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,10 +343,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="homework2 (arrays, objects) приведення типів" />
-    <MESSAGE value="if, switch" />
-    <MESSAGE value="hw3, if, switch, falsy values" />
-    <MESSAGE value="hw4  (for of, for i, while)" />
     <MESSAGE value="hw4  (for of, for i, while) edited" />
     <MESSAGE value="hw4  aditional1" />
     <MESSAGE value="hw4  aditional2" />
@@ -321,6 +364,10 @@
     <MESSAGE value="hw7 additional &#10;class UserAccount" />
     <MESSAGE value="hw7 additional &#10;class UserAccount&#10;?. is used" />
     <MESSAGE value="hw6 additional &#10;'%$#*^%   - **Harry-2 3234-       Potter333333333'  normalize" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw6 additional &#10;'%$#*^%   - **Harry-2 3234-       Potter333333333'  normalize" />
+    <MESSAGE value="hw6 additional &#10;strplus" />
+    <MESSAGE value="hw6 additional new task" />
+    <MESSAGE value="hw8 Users and Clients class&#10;array of users generator&#10;array of Clients ganerator" />
+    <MESSAGE value="hw8 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw8 completed" />
   </component>
 </project>

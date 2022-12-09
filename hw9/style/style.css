@@ -1,0 +1,10 @@
+.member{
+    max-width:70%;
+    background-color: #fbffde;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.member p{
+    padding: 0 20px;
+}
