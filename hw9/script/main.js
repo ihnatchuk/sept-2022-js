@@ -244,25 +244,47 @@ for (const coursesAndDuration of coursesAndDurationArray1) {
 
     const h1=document.createElement('h1');
     h1.classList.add('heading');
-    h1.innerText=coursesAndDuration;
+    h1.innerText=coursesAndDuration.title;
 
     const p=document.createElement('div');
     p.classList.add('description');
-
-    div.innerText=`Course ${coursesAndDuration.title} - duration ${coursesAndDuration.monthDuration} months`;
+    p.innerText=`Duration ${coursesAndDuration.monthDuration} months`;
+    div.append(h1,p);
     document.body.appendChild(div);
+}
+
+// -------------------------------------------------------------------
+//
+//     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні
+//     на кнопку зникав елемент з id="text".
+let div =document.createElement('div');
+div.setAttribute('id','text');
+div.innerText='some text';
+document.body.appendChild(div);
+
+let button=document.createElement('button');
+button.innerText='Delete text';
+document.body.appendChild(button);
+button.onclick=event=>div.classList.add('none');
+
+//     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати
+//     інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
+let form=document.createElement('form');
+let input=document.createElement('input');
+let button2=document.createElement('button');
+button2.innerText='submit';
+document.body.appendChild(form);
+form.append(input,button2);
+button2.onclick=function(e){
+    let age=input.value;
+    if(age<18){
+        alert('Rejected');
+    }
 }
 
 
 
-// -------------------------------------------------------------------
-//
-//     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
-//
-//
-//     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
-//
-//
+
 // *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)

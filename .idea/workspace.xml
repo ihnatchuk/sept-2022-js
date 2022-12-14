@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw8 completed and hw9 started">
-      <change afterPath="$PROJECT_DIR$/hw9/template.html" afterDir="false" />
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw9 some tasks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw9/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw9/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw9/script/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw9/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/hw9/style/style.css" afterDir="false" />
     </list>
@@ -112,7 +110,7 @@
       <workItem from="1670622043728" duration="8268000" />
       <workItem from="1670704343994" duration="3705000" />
       <workItem from="1671020450666" duration="601000" />
-      <workItem from="1671021801136" duration="5679000" />
+      <workItem from="1671021801136" duration="9605000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -338,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670622888024</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="hw9 some tasks">
+      <created>1671030076854</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1671030076854</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +361,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hw4  (for of, for i, while) edited" />
     <MESSAGE value="hw4  aditional1" />
     <MESSAGE value="hw4  aditional2" />
     <MESSAGE value="hw4  aditional3" />
@@ -381,6 +385,7 @@
     <MESSAGE value="hw6 additional new task" />
     <MESSAGE value="hw8 Users and Clients class&#10;array of users generator&#10;array of Clients ganerator" />
     <MESSAGE value="hw8 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw8 completed" />
+    <MESSAGE value="hw9 some tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw9 some tasks" />
   </component>
 </project>
