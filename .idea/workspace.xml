@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw9 almost all">
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw9 completed">
+      <change afterPath="$PROJECT_DIR$/hw10/script/details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/script/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw9/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw9/script/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw9/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/hw9/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,29 +41,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/oktenweb/sept-2022-js&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/oktenweb/sept-2022-js/hw10",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\oktenweb\sept-2022-js\hw10" />
       <recent name="D:\oktenweb\sept-2022-js\hw9" />
       <recent name="D:\oktenweb\sept-2022-js\hw8" />
       <recent name="D:\oktenweb\sept-2022-js\hw7_additional_closures" />
       <recent name="D:\oktenweb\sept-2022-js" />
-      <recent name="D:\oktenweb\sept-2022-js\hw6" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\oktenweb\sept-2022-js\hw9\style" />
@@ -111,7 +114,10 @@
       <workItem from="1670704343994" duration="3705000" />
       <workItem from="1671020450666" duration="601000" />
       <workItem from="1671021801136" duration="9650000" />
-      <workItem from="1671104000080" duration="4438000" />
+      <workItem from="1671104000080" duration="4864000" />
+      <workItem from="1671122407970" duration="370000" />
+      <workItem from="1671122795926" duration="913000" />
+      <workItem from="1671124691821" duration="7901000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -351,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671037587938</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="hw9 completed">
+      <created>1671110975390</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1671110975390</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +382,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hw4  aditional2" />
     <MESSAGE value="hw4  aditional3" />
     <MESSAGE value="hw4  add3" />
     <MESSAGE value="hw5  function declaration, expression; arrow functions;" />
@@ -394,6 +406,7 @@
     <MESSAGE value="hw8 completed" />
     <MESSAGE value="hw9 some tasks" />
     <MESSAGE value="hw9 almost all" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw9 almost all" />
+    <MESSAGE value="hw9 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw9 completed" />
   </component>
 </project>
