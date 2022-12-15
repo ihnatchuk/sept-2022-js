@@ -208,83 +208,135 @@ let simpsons = [
 // document.body.appendChild(block2);
 
 
+// -------------------- resolve from consultation
+
+// const block=document.createElement('div')
+// block.classList.add('wrapper','collapse','alpha','beta')
+// block.style.backgroundColor='silver';
+// block.style.color='black';
+// block.style.fontSize='16px';
+// block.innerText='Block1';
+// document.body.appendChild(block);
+//
+// const block2= block.cloneNode(true);// ? чому не працює копіювання обєкту через JSON?
+// document.body.appendChild(block2);
+
+
+
 //--------------------------------------------------------------------
 // - Є масив
-let coursesAndDurationArray = [
-    {title: 'JavaScript Complex', monthDuration: 5},
-    {title: 'Java Complex', monthDuration: 6},
-    {title: 'Python Complex', monthDuration: 6},
-    {title: 'QA Compleirex', monthDuration: 4},
-    {title: 'FullStack', monthDuration: 7},
-    {title: 'Frontend', monthDuration: 4}
-];
+// let coursesAndDurationArray = [
+//     {title: 'JavaScript Complex', monthDuration: 5},
+//     {title: 'Java Complex', monthDuration: 6},
+//     {title: 'Python Complex', monthDuration: 6},
+//     {title: 'QA Compleirex', monthDuration: 4},
+//     {title: 'FullStack', monthDuration: 7},
+//     {title: 'Frontend', monthDuration: 4}
+// ];
 // Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration
 // Завдання робити через цикли.
-for (const coursesAndDuration of coursesAndDurationArray) {
-    const div=document.createElement('div');
-    div.innerText=`Course ${coursesAndDuration.title} - duration ${coursesAndDuration.monthDuration} months`;
-    document.body.appendChild(div);
-}
+// for (const coursesAndDuration of coursesAndDurationArray) {
+//     const div=document.createElement('div');
+//     div.innerText=`Course ${coursesAndDuration.title} - duration ${coursesAndDuration.monthDuration} months`;
+//     document.body.appendChild(div);
+// }
 
 // - Є масив
-let coursesAndDurationArray1 = [
-    {title: 'JavaScript Complex', monthDuration: 5},
-    {title: 'Java Complex', monthDuration: 6},
-    {title: 'Python Complex', monthDuration: 6},
-    {title: 'QA Complex', monthDuration: 4},
-    {title: 'FullStack', monthDuration: 7},
-    {title: 'Frontend', monthDuration: 4}
-];
+// let coursesAndDurationArray1 = [
+//     {title: 'JavaScript Complex', monthDuration: 5},
+//     {title: 'Java Complex', monthDuration: 6},
+//     {title: 'Python Complex', monthDuration: 6},
+//     {title: 'QA Complex', monthDuration: 4},
+//     {title: 'FullStack', monthDuration: 7},
+//     {title: 'Frontend', monthDuration: 4}
+// ];
 // За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде
 // <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
 //     Завдання робити через цикли.
-for (const coursesAndDuration of coursesAndDurationArray1) {
-    const div=document.createElement('div');
-    div.classList.add('heading')
-
-    const h1=document.createElement('h1');
-    h1.classList.add('heading');
-    h1.innerText=coursesAndDuration.title;
-
-    const p=document.createElement('div');
-    p.classList.add('description');
-    p.innerText=`Duration ${coursesAndDuration.monthDuration} months`;
-    div.append(h1,p);
-    document.body.appendChild(div);
-}
+// for (const coursesAndDuration of coursesAndDurationArray1) {
+//     const div=document.createElement('div');
+//     div.classList.add('heading')
+//
+//     const h1=document.createElement('h1');
+//     h1.classList.add('heading');
+//     h1.innerText=coursesAndDuration.title;
+//
+//     const p=document.createElement('div');
+//     p.classList.add('description');
+//     p.innerText=`Duration ${coursesAndDuration.monthDuration} months`;
+//     div.append(h1,p);
+//     document.body.appendChild(div);
+// }
 
 // -------------------------------------------------------------------
 //
 //     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні
 //     на кнопку зникав елемент з id="text".
-let div =document.createElement('div');
-div.setAttribute('id','text');
-div.innerText='some text';
-document.body.appendChild(div);
-
-let button=document.createElement('button');
-button.innerText='Delete text';
-document.body.appendChild(button);
-button.onclick=event=>div.classList.add('none');
+// let div =document.createElement('div');
+// div.setAttribute('id','text');
+// div.innerText='some text';
+// document.body.appendChild(div);
+//
+// let button=document.createElement('button');
+// button.innerText='Delete text';
+// document.body.appendChild(button);
+// button.onclick=event=>div.classList.add('none');
 
 //     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати
 //     інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
-let form=document.createElement('form');
-let input=document.createElement('input');
-let button2=document.createElement('button');
-button2.innerText='submit';
-document.body.appendChild(form);
-form.append(input,button2);
-button2.onclick=function(e){
-    let age=input.value;
-    if(age<18){
-        alert('Rejected');
-    }
-}
-
-
+// let form=document.createElement('form');
+// let input=document.createElement('input');
+// let button2=document.createElement('button');
+// button2.innerText='submit';
+// document.body.appendChild(form);
+// form.append(input,button2);
+// button2.onclick=function(e){
+//     let age=input.value;
+//     if(age<18){
+//         alert('Your age <18, access denied');
+//     }else{
+//         alert('Welcome!');
+//     }
+// }
 
 
 // *** Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
+
+let div=document.createElement('div');
+div.classList.add('formToFill');
+
+let input1=document.createElement('input');
+input1.setAttribute('type','number')
+
+let input2=document.createElement('input');
+input2.setAttribute('type','number')
+
+let input3=document.createElement('input');
+input3.setAttribute('type','text')
+
+
+let button=document.createElement('button');
+button.innerText='submit';
+
+div.append(input1, input2, input3, button);
+
+document.body.appendChild(div);
+
+button.onclick=function(e){
+    let rowNumber=input1.value;
+    let columnNumber=input2.value;
+    let text=input3.value;
+    let table=document.createElement('table');
+    for (let i = 0; i < rowNumber; i++) {
+        let tr=document.createElement('tr');
+        for (let j = 0; j < columnNumber; j++) {
+            let td=document.createElement('td');
+            td.innerText=text;
+            tr.appendChild(td);
+        }
+        table.appendChild(tr);
+    }
+    document.body.appendChild(table);
+}
