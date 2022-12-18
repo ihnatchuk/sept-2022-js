@@ -1,6 +1,6 @@
 let url = new URL(location.href);
 let post = JSON.parse(url.searchParams.get('postData'));
-let username = url.searchParams.get('username');
+let username = url.searchParams.get('username');//передаю username з users
 
 const {userId, id, title, body} = post;
 
