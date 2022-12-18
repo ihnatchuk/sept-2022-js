@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw9 completed">
-      <change afterPath="$PROJECT_DIR$/hw10/script/details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw10/script/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw10/style/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw10/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw10/users.html" afterDir="false" />
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw10 completed">
+      <change afterPath="$PROJECT_DIR$/miniproject/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/script/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/script/post-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/script/user-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/style/post-detail_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/style/user-detail_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/style/user_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/oktenweb/sept-2022-js/hw10",
+    "last_opened_file_path": "C:/oktenweb/sept-2022-js/miniproject/style",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,11 +63,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\oktenweb\sept-2022-js\miniproject\style" />
+      <recent name="C:\oktenweb\sept-2022-js\miniproject" />
       <recent name="C:\oktenweb\sept-2022-js\hw10" />
       <recent name="D:\oktenweb\sept-2022-js\hw9" />
       <recent name="D:\oktenweb\sept-2022-js\hw8" />
-      <recent name="D:\oktenweb\sept-2022-js\hw7_additional_closures" />
-      <recent name="D:\oktenweb\sept-2022-js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\oktenweb\sept-2022-js\hw9\style" />
@@ -117,7 +121,9 @@
       <workItem from="1671104000080" duration="4864000" />
       <workItem from="1671122407970" duration="370000" />
       <workItem from="1671122795926" duration="913000" />
-      <workItem from="1671124691821" duration="7901000" />
+      <workItem from="1671124691821" duration="9300000" />
+      <workItem from="1671308717444" duration="154000" />
+      <workItem from="1671308886781" duration="21979000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -364,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671110975390</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="hw10 completed">
+      <created>1671135029790</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1671135029790</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +395,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hw4  aditional3" />
     <MESSAGE value="hw4  add3" />
     <MESSAGE value="hw5  function declaration, expression; arrow functions;" />
     <MESSAGE value="hw5  function declaration, expression; arrow functions;&#10;spread+Math.min" />
@@ -407,6 +419,7 @@
     <MESSAGE value="hw9 some tasks" />
     <MESSAGE value="hw9 almost all" />
     <MESSAGE value="hw9 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw9 completed" />
+    <MESSAGE value="hw10 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw10 completed" />
   </component>
 </project>
