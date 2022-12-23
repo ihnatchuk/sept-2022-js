@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="hw10 completed">
-      <change afterPath="$PROJECT_DIR$/miniproject/post-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniproject/script/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniproject/script/post-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniproject/script/user-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniproject/style/post-detail_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniproject/style/user-detail_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniproject/style/user_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniproject/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniproject/users.html" afterDir="false" />
+    <list default="true" id="d7bd789d-aaba-4dd5-853d-65850bc2fd08" name="Changes" comment="miniproject&#10;users&#10;posts&#10;comments&#10;from jsonplaceholder">
+      <change afterPath="$PROJECT_DIR$/miniproject/user-details/script/user-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/users/style/user_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/miniproject/users/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniproject/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/miniproject/post-details/post-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniproject/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniproject/users/script/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniproject/script/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniproject/post-details/script/post-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniproject/script/user-details.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniproject/style/post-detail_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/miniproject/post-details/style/post-detail_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniproject/style/user-detail_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/miniproject/user-details/style/user-detail_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniproject/style/user_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniproject/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/miniproject/user-details/user-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniproject/users.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/oktenweb/sept-2022-js/miniproject/style",
+    "last_opened_file_path": "C:/oktenweb/sept-2022-js/miniproject/post-details",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,16 +66,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\oktenweb\sept-2022-js\miniproject\style" />
-      <recent name="C:\oktenweb\sept-2022-js\miniproject" />
-      <recent name="C:\oktenweb\sept-2022-js\hw10" />
-      <recent name="D:\oktenweb\sept-2022-js\hw9" />
-      <recent name="D:\oktenweb\sept-2022-js\hw8" />
+      <recent name="C:\oktenweb\sept-2022-js\miniproject\post-details" />
+      <recent name="C:\oktenweb\sept-2022-js\miniproject\user-details" />
+      <recent name="C:\oktenweb\sept-2022-js\miniproject\users" />
+      <recent name="C:\oktenweb\sept-2022-js\miniproject\script" />
+      <recent name="C:\oktenweb\sept-2022-js\miniproject\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\oktenweb\sept-2022-js\miniproject\users" />
+      <recent name="C:\oktenweb\sept-2022-js\miniproject\user-details" />
+      <recent name="C:\oktenweb\sept-2022-js\miniproject\post-details" />
       <recent name="D:\oktenweb\sept-2022-js\hw9\style" />
       <recent name="D:\oktenweb\sept-2022-js\hw4\styles" />
-      <recent name="D:\oktenweb\sept-2022-js\hw1\script" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -123,7 +128,8 @@
       <workItem from="1671122795926" duration="913000" />
       <workItem from="1671124691821" duration="9300000" />
       <workItem from="1671308717444" duration="154000" />
-      <workItem from="1671308886781" duration="21979000" />
+      <workItem from="1671308886781" duration="22211000" />
+      <workItem from="1671721274298" duration="29157000" />
     </task>
     <task id="LOCAL-00001" summary="JS hw1, task1">
       <created>1667247861497</created>
@@ -377,7 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671135029790</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="miniproject&#10;users&#10;posts&#10;comments">
+      <created>1671393635746</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1671393635746</updated>
+    </task>
+    <task id="LOCAL-00038" summary="miniproject&#10;users&#10;posts&#10;comments&#10;from jsonplaceholder">
+      <created>1671393771192</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1671393771192</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,8 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hw4  add3" />
-    <MESSAGE value="hw5  function declaration, expression; arrow functions;" />
     <MESSAGE value="hw5  function declaration, expression; arrow functions;&#10;spread+Math.min" />
     <MESSAGE value="hw5  function declaration, expression; arrow functions;&#10;spread+Math.min&#10;&#10;execution speed of two algorithms to find minimal value in array." />
     <MESSAGE value="hw5  function declaration, expression; arrow functions;&#10;spread+Math.min&#10;&#10;execution speed of two algorithms to find minimal value in array.&#10;start finish" />
@@ -420,6 +438,8 @@
     <MESSAGE value="hw9 almost all" />
     <MESSAGE value="hw9 completed" />
     <MESSAGE value="hw10 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw10 completed" />
+    <MESSAGE value="miniproject&#10;users&#10;posts&#10;comments" />
+    <MESSAGE value="miniproject&#10;users&#10;posts&#10;comments&#10;from jsonplaceholder" />
+    <option name="LAST_COMMIT_MESSAGE" value="miniproject&#10;users&#10;posts&#10;comments&#10;from jsonplaceholder" />
   </component>
 </project>

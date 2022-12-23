@@ -9,7 +9,7 @@ body, div, h1, h2, h3, p{
     justify-content: space-evenly;
     background-color: #e3f5f6;
     padding: 10px 0 15px;
-    row-gap: 10px;
+    row-gap: 15px;
 }
 .title{
     padding: 10px;
@@ -22,12 +22,38 @@ body, div, h1, h2, h3, p{
 }
 .user{
     width: 45%;
+    color: #161e50;
     background-color: #f4fcb0;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     border-radius: 10px;
     box-shadow: #8bb6f3 5px 5px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color ease-in-out 0.4s, color ease-in-out 0.4s;
 }
+.user:hover{
+    background-color: rgba(255, 255, 0, 0.4);
+    box-shadow: #5194f1 5px 5px;
+    color: #2a46fd;
+}
+.user:hover a{
+    right: 20px;
+}
+
 a{
-    font-size: 1em;
+    position: absolute;
+    right: -50px;
+    bottom: 25%;
+    transition: right ease-in-out 0.4s;
+}
+svg{
+    fill: #161e50;
+    transition: fill ease-in-out 0.4s;
+}
+svg:hover{
+    fill: #2a46fd;
+}
+.display-none{
+    display: none;
 }
