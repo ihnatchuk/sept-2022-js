@@ -38,7 +38,7 @@ body, div, h1, h2, h3, p{
     color: #2a46fd;
 }
 .user:hover a{
-    right: 20px;
+    right: 3%;
 }
 
 a{
@@ -56,4 +56,19 @@ svg:hover{
 }
 .display-none{
     display: none;
+}
+
+@media (min-width:577px) and (max-width:768px){
+    .user{
+        padding: 20px 10px;
+        text-align: start;
+    }
+}
+@media (max-width:576px){
+    .title{
+        width: 90%;
+    }
+    .user{
+        width: 90%;
+    }
 }
