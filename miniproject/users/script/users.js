@@ -11,7 +11,7 @@ fetch('http://jsonplaceholder.typicode.com/users')
             let svgClone = document.querySelector('svg').cloneNode(true);
             svgClone.classList.remove('display-none');
             let a=document.createElement('a');
-            a.href='../user-details/user-details.html?userdata='+JSON.stringify(user);
+            a.href='user-details/user-details.html?userdata='+JSON.stringify(user);
             a.appendChild(svgClone);
             divUser.append(h2,a);
             let container=document.getElementsByClassName('container')[0];
